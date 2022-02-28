@@ -1,0 +1,56 @@
+
+.experience {
+    position: relative;
+    height: 1410px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    img {
+        width: 540px;
+        height: 720px;
+        box-shadow: 0px 75px 100px -50px rgb(92, 103, 121, 0.5);
+    }
+    
+    .brown-lines {
+        left: 1235px;
+        top: 1050px;
+    }
+}
+
+.img-left-exp {
+    position: relative;
+    top: -82px;
+}
+
+.img-right-exp {
+    position: relative;
+    bottom: -50px;
+
+}
+
+.exp-container {
+    // position: relative;
+    // width: 1110px;
+
+}
+
+.grey-right, .grey-left {
+    width: 895px;
+    height: 320px;
+    background-color: $shuttleGray;
+    opacity: 0.0774042;
+    z-index: -5;
+    position: absolute;
+}
+
+.grey-right {
+    border-top-right-radius: 100px;
+    top: 250px;
+
+}
+
+.grey-left {
+    border-top-left-radius: 100px;
+    bottom: 0;
+    right: 0;
+}

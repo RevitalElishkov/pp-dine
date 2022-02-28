@@ -1,0 +1,27 @@
+
+.app-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    height: 240px;
+    background-color: $codGray;
+    color: #fff;
+    
+    .info {
+        width: 814px;
+        p:first-child {
+            margin-right: 124px;
+        }
+    }
+    
+    p {
+        text-transform: uppercase;
+        font-family: Spartan-SemiBold;
+        font-size: rem(14px);
+        line-height: rem(28px);
+        letter-spacing: rem(2px);
+    }
+}
+
+
+

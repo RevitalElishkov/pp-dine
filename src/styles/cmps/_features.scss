@@ -1,0 +1,25 @@
+
+.features {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: grid;
+    justify-content: center;
+    gap: 130px;
+
+    grid-template-columns: repeat(1, 1fr);
+   
+    @include for-narrow-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.card-header {
+    font-size: 20px;
+    font-family: Raleway-Bold;
+    text-align: center;
+}
+
+.card-img {
+    margin: 0 auto;
+}

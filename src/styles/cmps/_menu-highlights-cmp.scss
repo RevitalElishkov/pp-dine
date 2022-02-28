@@ -1,0 +1,99 @@
+.menu {
+    height: 761px;
+    background-color: $codGray;
+    color: #fff;
+    padding-top: 200px;
+    img {
+       width: 160px;
+       height: 96px; 
+    }
+}
+.browm-element {
+    width: 71px;
+    margin-bottom: 24px;
+
+    .circle {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        border:1px solid $beaver; 
+    }
+
+    .line {
+        width: 56px;
+        height: 1px;
+        border-top: 1px solid $beaver;
+    }
+    span {
+        background: $codGray; 
+        padding-right: 8px; 
+        width: 100%;
+        line-height: 0.1em;
+      
+    }
+
+}
+
+.card {
+    width: 445px;
+    height: 218px;
+
+    h2 {
+        padding-top: 24px;
+        margin-bottom: 16px;
+        font-family: Spartan-Bold;
+        font-size: rem(40px);
+        line-height: rem(56px);
+        letter-spacing: rem(-0.5px);
+    }
+
+    p {
+        font-family: Spartan-regular;
+        font-size: rem(18px);
+        line-height: rem(30px);
+        letter-spacing: rem(-0.22px);
+    }
+}
+.meals {
+    width: 540px;
+    height: 120px;
+    
+}
+
+.meal {
+    padding: 24px 0;
+    &:not(:last-child) {
+        border-bottom: 1px solid #97979785;
+    }
+;
+    .brown-line {
+        width: 32px;
+        height: 1px;
+        background-color: $beaver;
+        position: relative;
+        top: 12px
+    }
+
+}
+.meal-info {
+    padding-left: 30px;
+    h3 {
+        font-family: Spartan-Bold;
+        font-size: rem(18px);
+        line-height: rem(28px);
+        letter-spacing: rem(-0.22px); 
+        // border-top: 1px solid $beaver;
+        // line-height: 0.1em;
+        // width: 100%; 
+        // span { 
+        //     background: $codGray; 
+        //     padding:0 10px; 
+        // }
+    }
+    p {
+        font-family: Spartan-regular;
+        font-size: rem(15px);
+        line-height: rem(28px);
+        letter-spacing: rem(-0.19px);
+    }
+}

@@ -1,0 +1,46 @@
+
+.hero {
+    height: 820px;
+    background-image: url("~@/assets/img/hero.png");
+    background-color: $codGray;
+    background-repeat: no-repeat;
+    background-position: 120% 0;
+    color: #ffffff;
+    padding-top: 65px;
+    .logo {
+        margin-bottom: rem(152px);
+    }
+}
+
+.logo {
+    height: 40px;
+    font-family: Spartan-Bold;
+    font-size: rem(40px);
+    line-height: rem(56px);
+    letter-spacing: rem(-0.5px);
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 524px;
+    height: 364px;
+    font-family: Spartan-regular;
+    font-size: rem(18px);
+    line-height: rem(30px);
+    letter-spacing: rem(-0.22px);
+
+    h1 {
+        font-family: Spartan-Light;
+        font-size: rem(64px);
+        line-height: rem(72px);
+        letter-spacing: rem(-0.8px);
+    }
+
+    button {
+     border: 1px solid #ffffff;
+    }
+
+    
+}

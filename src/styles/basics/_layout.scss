@@ -1,0 +1,19 @@
+.main-layout {
+     
+    @include for-narrow-layout {
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 375px;  
+
+    }
+    
+    @include for-normal-layout {
+        padding-left: 165px;
+        padding-right: 165px;
+        margin: 0 auto;
+
+        max-width: 1440px;       
+    
+    }
+    
+}
